@@ -2,7 +2,6 @@ import os
 import cv2
 
 cascPath = os.path.dirname(__file__)+'/haarcascade_frontalface_alt2.xml'
-print(cascPath)
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 video_capture = cv2.VideoCapture(0)
