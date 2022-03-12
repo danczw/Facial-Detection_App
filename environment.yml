@@ -1,0 +1,7 @@
+name: face_det
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - opencv=4.5.*
