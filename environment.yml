@@ -1,6 +1,5 @@
-name: face_det
+name: face_detect
 channels:
-  - default
   - conda-forge
 dependencies:
   - python=3.9.*
